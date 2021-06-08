@@ -1,0 +1,50 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: helvetica, Helvetica, Arial, sans-serif;
+}
+
+.itBody {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80vh;
+  background-color: #f5f3f3;
+}
+
+.itBody h1 {
+  font-size: 30vw;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.itBody h1:hover {
+  cursor: pointer;
+}
+
+.itBody .glow {
+  text-shadow: 0 0 25px #e21a36, 0 0 10px darkred;
+}
+
+.itBody .emptyBtn {
+  border: none;
+  background: none;
+  position: absolute;
+  left: 5vw;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.itBody .emptyBtn:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=TimerBody.css.map */

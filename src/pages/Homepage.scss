@@ -1,0 +1,35 @@
+@import '../components/UI/Button.scss'; 
+
+
+.homePageBtn { 
+    font-size: 2rem;
+    font-weight: 500;
+    height: 3em; 
+    width: 10em; 
+    flex-basis: 50%;
+    align-self: center;
+    margin-bottom: 15px; 
+    border-radius: 12px;
+
+    &:hover {
+        border: rgb(0, 0, 0) 5px solid; 
+    }
+}
+
+
+.flexWrapper {
+    flex-direction: column;
+}
+
+ .homepage{
+    background-color: $primaryColor;
+    min-height: 100vh;
+
+    h1 {
+        color: white; 
+        text-align: center; 
+        padding-top: 1em; 
+        margin-bottom: 1em; 
+    }
+    
+}

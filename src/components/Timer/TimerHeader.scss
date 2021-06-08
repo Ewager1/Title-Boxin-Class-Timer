@@ -1,0 +1,23 @@
+@import '../../index.scss'; 
+@import '../UI/Button.scss';
+
+.timer-header {
+    background: $primaryColor;
+    color: $primaryText; 
+    text-align: center;
+    height: 10vh; 
+}
+
+.header-wrapper { 
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.x-btn {
+    position: absolute; 
+    right: 5vw; 
+    top: 3vh;
+    @include createdButton(white, $primaryColor, gray, gray )
+}

@@ -1,0 +1,21 @@
+@import "../../index.scss";
+
+@mixin createdButton($background, $color, $activeBackground, $activeBorder ) {
+  background: $background;
+  color: $color;
+  padding: 0.25rem 1rem;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 12px;
+
+&:hover,
+&:active {
+  background: $activeBackground;
+  border-color: $activeBorder;
+} 
+}
+
+
+
+
+

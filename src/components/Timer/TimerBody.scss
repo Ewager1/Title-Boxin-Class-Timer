@@ -1,0 +1,30 @@
+@import "../../index.scss";
+
+.itBody {
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-color: rgb(245, 243, 243);
+
+  h1 {
+    font-size: 30vw;
+    align-self: center;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .glow {
+    text-shadow: 0 0 25px $primaryColor, 0 0 10px darkred;
+  }
+
+  .emptyBtn {
+    border: none;
+    background: none;
+    position: absolute; 
+    left: 5vw; 
+   align-self: center;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

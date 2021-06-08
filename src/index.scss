@@ -1,0 +1,16 @@
+$primaryColor: #e21a36; 
+$secondaryColor: #cecece; 
+$primaryFont: helvetica,Helvetica,Arial,sans-serif;
+$primaryText: white; 
+$secondaryText: black; 
+
+* {
+  box-sizing: border-box;
+  margin: 0; 
+}
+
+
+body {
+  font-family: $primaryFont;
+}
+

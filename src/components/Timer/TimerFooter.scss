@@ -1,0 +1,32 @@
+@import "../../index.scss";
+
+.timerFooter {
+  color: $primaryText;
+  height: 10vh;
+  align-items: center;
+
+  h2 {
+    background: $primaryColor;
+    height: 100%;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    font-size: 9vh;
+    padding-left: 10px;
+  }
+
+  img {
+    width: 15vw;
+    height: 100%;
+    margin-left: auto;
+    padding-right: 1em;
+  }
+
+  .triangle {
+    height: 0px;
+    width: 0px;
+    border-bottom: 10vh solid $primaryColor;
+    border-left: 0px solid transparent;
+    border-right: 6vh solid transparent;
+  }
+}

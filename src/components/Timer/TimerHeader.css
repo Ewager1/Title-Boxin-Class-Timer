@@ -1,0 +1,54 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: helvetica, Helvetica, Arial, sans-serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: helvetica, Helvetica, Arial, sans-serif;
+}
+
+.timer-header {
+  background: #e21a36;
+  color: white;
+  text-align: center;
+  height: 10vh;
+}
+
+.header-wrapper {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.x-btn {
+  position: absolute;
+  right: 5vw;
+  top: 3vh;
+  background: white;
+  color: #e21a36;
+  padding: 0.25rem 1rem;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 12px;
+}
+
+.x-btn:hover, .x-btn:active {
+  background: gray;
+  border-color: gray;
+}
+/*# sourceMappingURL=TimerHeader.css.map */
