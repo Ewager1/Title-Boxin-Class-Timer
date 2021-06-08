@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Title-Boxin-Class-Timer-/static/css/main.3097b01f.chunk.css",
+    "main.js": "/Title-Boxin-Class-Timer-/static/js/main.cd2cfece.chunk.js",
+    "main.js.map": "/Title-Boxin-Class-Timer-/static/js/main.cd2cfece.chunk.js.map",
+    "runtime-main.js": "/Title-Boxin-Class-Timer-/static/js/runtime-main.dd544e6d.js",
+    "runtime-main.js.map": "/Title-Boxin-Class-Timer-/static/js/runtime-main.dd544e6d.js.map",
+    "static/js/2.e6a897aa.chunk.js": "/Title-Boxin-Class-Timer-/static/js/2.e6a897aa.chunk.js",
+    "static/js/2.e6a897aa.chunk.js.map": "/Title-Boxin-Class-Timer-/static/js/2.e6a897aa.chunk.js.map",
+    "index.html": "/Title-Boxin-Class-Timer-/index.html",
+    "static/css/main.3097b01f.chunk.css.map": "/Title-Boxin-Class-Timer-/static/css/main.3097b01f.chunk.css.map",
+    "static/js/2.e6a897aa.chunk.js.LICENSE.txt": "/Title-Boxin-Class-Timer-/static/js/2.e6a897aa.chunk.js.LICENSE.txt",
+    "static/media/titleLogo.ece21b9b.png": "/Title-Boxin-Class-Timer-/static/media/titleLogo.ece21b9b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dd544e6d.js",
+    "static/js/2.e6a897aa.chunk.js",
+    "static/css/main.3097b01f.chunk.css",
+    "static/js/main.cd2cfece.chunk.js"
+  ]
+}
