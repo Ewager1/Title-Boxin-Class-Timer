@@ -1,32 +1,33 @@
 {
-    "theme_color": "#f64935",
-    "background_color": "#f5f2ef",
-    "display": "fullscreen",
-    "scope": "/",
-    "start_url": "/.",
-    "name": "Title Boxing Timer ",
-    "short_name": "TBTimer",
-    "description": "An interval timer with more functionality than standard title timer ",
-    "icons": [
-        {
-            "src": "./icon-192x192.png",
-            "sizes": "192x192",
-            "type": "image/png"
-        },
-        {
-            "src": "./icon-256x256.png",
-            "sizes": "256x256",
-            "type": "image/png"
-        },
-        {
-            "src": "./icon-384x384.png",
-            "sizes": "384x384",
-            "type": "image/png"
-        },
-        {
-            "src": "./icon-512x512.png",
-            "sizes": "512x512",
-            "type": "image/png"
-        }
-    ]
+  "theme_color": "#f64935",
+  "background_color": "#f5f2ef",
+  "display": "fullscreen",
+  "scope": "https://ewager1.github.io/Title-Boxin-Class-Timer-/",
+  "start_url": "/.",
+  "name": "Title Boxing Timer ",
+  "short_name": "TBTimer",
+  "description": "An interval timer with more functionality than standard title timer ",
+  "icons": [
+    {
+      "src": "./icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./icon-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "./icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "./icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
 }
