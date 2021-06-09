@@ -6,6 +6,7 @@
   "start_url": "",
   "name": "Title Boxing Timer ",
   "short_name": "TBTimer",
+  "orientation": "landscape",
   "description": "An interval timer with more functionality than standard title timer ",
   "icons": [
     {
