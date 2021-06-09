@@ -1,21 +1,23 @@
 {
   "files": {
     "main.css": "/Title-Boxin-Class-Timer-/static/css/main.c1cf8ce8.chunk.css",
-    "main.js": "/Title-Boxin-Class-Timer-/static/js/main.01c90346.chunk.js",
-    "main.js.map": "/Title-Boxin-Class-Timer-/static/js/main.01c90346.chunk.js.map",
+    "main.js": "/Title-Boxin-Class-Timer-/static/js/main.997ae34a.chunk.js",
+    "main.js.map": "/Title-Boxin-Class-Timer-/static/js/main.997ae34a.chunk.js.map",
     "runtime-main.js": "/Title-Boxin-Class-Timer-/static/js/runtime-main.dd544e6d.js",
     "runtime-main.js.map": "/Title-Boxin-Class-Timer-/static/js/runtime-main.dd544e6d.js.map",
-    "static/js/2.3871c1ac.chunk.js": "/Title-Boxin-Class-Timer-/static/js/2.3871c1ac.chunk.js",
-    "static/js/2.3871c1ac.chunk.js.map": "/Title-Boxin-Class-Timer-/static/js/2.3871c1ac.chunk.js.map",
+    "static/js/2.03d429b5.chunk.js": "/Title-Boxin-Class-Timer-/static/js/2.03d429b5.chunk.js",
+    "static/js/2.03d429b5.chunk.js.map": "/Title-Boxin-Class-Timer-/static/js/2.03d429b5.chunk.js.map",
     "index.html": "/Title-Boxin-Class-Timer-/index.html",
+    "service-worker.js": "/Title-Boxin-Class-Timer-/service-worker.js",
+    "service-worker.js.map": "/Title-Boxin-Class-Timer-/service-worker.js.map",
     "static/css/main.c1cf8ce8.chunk.css.map": "/Title-Boxin-Class-Timer-/static/css/main.c1cf8ce8.chunk.css.map",
-    "static/js/2.3871c1ac.chunk.js.LICENSE.txt": "/Title-Boxin-Class-Timer-/static/js/2.3871c1ac.chunk.js.LICENSE.txt",
+    "static/js/2.03d429b5.chunk.js.LICENSE.txt": "/Title-Boxin-Class-Timer-/static/js/2.03d429b5.chunk.js.LICENSE.txt",
     "static/media/titleLogo.ece21b9b.png": "/Title-Boxin-Class-Timer-/static/media/titleLogo.ece21b9b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.dd544e6d.js",
-    "static/js/2.3871c1ac.chunk.js",
+    "static/js/2.03d429b5.chunk.js",
     "static/css/main.c1cf8ce8.chunk.css",
-    "static/js/main.01c90346.chunk.js"
+    "static/js/main.997ae34a.chunk.js"
   ]
 }
