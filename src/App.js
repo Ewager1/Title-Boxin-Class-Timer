@@ -33,11 +33,11 @@ function App() {
         }}
       >
         <HashRouter>
+          <Route exact path="/" component={Homepage}>
+            <Homepage />
+          </Route>
           <Route path="/timer" component={IntervalTimer}>
             <IntervalTimer />
-          </Route>
-          <Route path="/" component={Homepage}>
-            <Homepage />
           </Route>
         </HashRouter>
       </TimerContext.Provider>
