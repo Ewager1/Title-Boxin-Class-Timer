@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import { BrowserRouter as Switch, Route } from "react-router-dom";
-import { HashRouter } from "react-router-dom";
+import { HashRouter, Route } from "react-router-dom";
 import TimerContext from "./store/timer-context";
 import { IntervalTimer } from "./pages/IntervalTimer";
 import { Homepage } from "./pages/Homepage";
@@ -34,14 +33,12 @@ function App() {
         }}
       >
         <HashRouter>
-          <Switch>
-            <Route path="/timer">
-              <IntervalTimer />
-            </Route>
-            <Route path="/">
-              <Homepage />
-            </Route>
-          </Switch>
+          <Route exact path="/timer" component={IntervalTimer}>
+            <IntervalTimer />
+          </Route>
+          <Route exact path="/" component={Homepage}>
+            <Homepage />
+          </Route>
         </HashRouter>
       </TimerContext.Provider>
     </>
