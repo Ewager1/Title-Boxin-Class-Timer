@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Switch, Route } from "react-router-dom";
 import { HashRouter } from "react-router-dom";
 import TimerContext from "./store/timer-context";
 import { IntervalTimer } from "./pages/IntervalTimer";
