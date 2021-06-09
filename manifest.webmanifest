@@ -1,7 +1,7 @@
 {
   "theme_color": "#f64935",
   "background_color": "#f5f2ef",
-  "display": "fullscreen",
+  "display": "standalone",
   "scope": "",
   "start_url": "",
   "name": "Title Boxing Timer ",
