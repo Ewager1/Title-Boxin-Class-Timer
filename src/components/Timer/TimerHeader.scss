@@ -13,24 +13,30 @@
   }
 
   .clock {
-      font-size: 10vw;
+    font-size: 10vw;
   }
 
   .x-btn {
+    @include createdButton(white, $primaryColor, gray, gray);
     position: absolute;
     right: 5vw;
     top: 2vh;
-    font-size: 1em;
-    height: 2em; 
-    width: auto; 
-    @include createdButton(white, $primaryColor, gray, gray);
+    font-size: 20px;
+    margin: 0;
+    padding-left: 8px;
+    height: 30px;
+    width: 30px;
   }
 
-}
+  @media (min-width: 450px) {
+    .clock {
+      font-size: 6vw !important;
+    }
 
-@media (min-width: 767px) {
-  .clock {
-    font-size: 6vw !important; 
+    @media (min-width: 600px) {
+      .clock {
+        font-size: 5vw !important;
+      }
+    }
   }
 }
-

@@ -3,7 +3,7 @@
 .itBody {
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  height: 79vh;
   background-color: rgb(245, 243, 243);
   flex-direction: column;
 
@@ -37,7 +37,7 @@
 
   @media (min-width: 600px) {
     h1 {
-      font-size: 250px;
+      font-size: 250px ;
     }
     img {
       width: 100px !important;

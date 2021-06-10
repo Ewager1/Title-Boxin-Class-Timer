@@ -15,28 +15,6 @@
     font-size: 6vh;
   }
 
-  img {
-    width: 250px;
-    height: 11vh;
-    margin-left: auto;
-    padding-right: 1em;
-    background: white;
-    padding-top: 0;
-  }
-
-  //little css hack i made to get the triangle to style $primary color correctly
-  .triangleSpan {
-    background: white;
-  }
-
-  .triangle {
-    height: 0px;
-    width: 0px;
-    border-bottom: 11vh solid $primaryColor;
-    border-left: 0px solid transparent;
-    border-right: 7.9vh solid transparent;
-    background: white;
-  }
   
 }
 
