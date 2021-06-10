@@ -3,12 +3,15 @@
 .itBody {
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  height: 79vh;
   background-color: rgb(245, 243, 243);
+  flex-direction: column;
 
   h1 {
     font-size: 30vw;
     align-self: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
     &:hover {
       cursor: pointer;
     }
@@ -20,11 +23,24 @@
   .emptyBtn {
     border: none;
     background: none;
-    position: absolute; 
-    left: 5vw; 
-   align-self: center;
+    align-self: center;
+    justify-self: flex-end;
     &:hover {
       cursor: pointer;
+    }
+
+    img {
+      width: 15vw;
+      height: auto;
+    }
+  }
+
+  @media (min-width: 600px) {
+    h1 {
+      font-size: 250px ;
+    }
+    img {
+      width: 100px !important;
     }
   }
 }
