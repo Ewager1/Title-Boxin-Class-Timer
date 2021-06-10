@@ -35,9 +35,23 @@
     }
   }
 
-  @media (min-width: 600px) {
+  /* Iphone 8 Landscape  */
+  @media only screen and (orientation: landscape) {
+    img {
+      width: 10vh !important;
+    }
+
     h1 {
-      font-size: 250px ;
+      font-size: 20vw; 
+      margin-top: 20px; 
+      margin-bottom: 20px; 
+    }
+  }
+
+  // Small Screen
+  @media only screen and  (min-width: 600px) and (orientation: portrait) {
+    h1 {
+      font-size: 250px;
     }
     img {
       width: 100px !important;
