@@ -1,23 +1,36 @@
-@import '../../index.scss'; 
-@import '../UI/Button.scss';
+@import "../../index.scss";
+@import "../UI/Button.scss";
 
 .timer-header {
-    background: $primaryColor;
-    color: $primaryText; 
-    text-align: center;
-    height: 10vh; 
-}
+  background: $primaryColor;
+  color: $primaryText;
+  height: 10vh;
 
-.header-wrapper { 
+  .header-wrapper {
     justify-content: center;
     align-items: center;
     position: relative;
+  }
+
+  .clock {
+      font-size: 10vw;
+  }
+
+  .x-btn {
+    position: absolute;
+    right: 5vw;
+    top: 2vh;
+    font-size: 1em;
+    height: 2em; 
+    width: auto; 
+    @include createdButton(white, $primaryColor, gray, gray);
+  }
 
 }
 
-.x-btn {
-    position: absolute; 
-    right: 5vw; 
-    top: 3vh;
-    @include createdButton(white, $primaryColor, gray, gray )
+@media (min-width: 767px) {
+  .clock {
+    font-size: 6vw !important; 
+  }
 }
+

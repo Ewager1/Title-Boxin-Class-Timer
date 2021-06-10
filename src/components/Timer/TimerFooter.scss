@@ -1,36 +1,32 @@
 @import "../../index.scss";
 
-
 .timerFooter {
   color: $primaryText;
   height: 11vh;
   align-items: center;
   background: $primaryColor;
 
-
   h2 {
     background: $primaryColor;
-    width: 90vw;
     display: flex;
     align-items: center;
-    font-size: 9vh;
     padding-left: 10px;
-
+    width: 100vw; 
+    font-size: 6vh;
   }
 
   img {
-    width: 15vw;
+    width: 250px;
     height: 11vh;
     margin-left: auto;
     padding-right: 1em;
     background: white;
-    padding-top: 0; 
-
+    padding-top: 0;
   }
 
-  //little css hack i made to get the triangle to style $primary color correctly 
+  //little css hack i made to get the triangle to style $primary color correctly
   .triangleSpan {
-    background: white; 
+    background: white;
   }
 
   .triangle {
@@ -40,9 +36,9 @@
     border-left: 0px solid transparent;
     border-right: 7.9vh solid transparent;
     background: white;
-    
   }
-
   
 }
+
+
 

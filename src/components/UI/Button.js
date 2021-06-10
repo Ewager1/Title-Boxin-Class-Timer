@@ -10,6 +10,8 @@ export const Button = (props) => {
       onClick={props.onClick} //adds onClick 
       value={props.value}
       ref={props.ref}
+      height={props.height}
+      width={props.width}
     >
       {props.children}
     </button>
