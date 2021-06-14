@@ -13,4 +13,3 @@ ReactDOM.render(
 
 serviceWorkerRegistration.register();
 
-screen.orientation.lock("landscape");
