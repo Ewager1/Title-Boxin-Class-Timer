@@ -1,23 +1,53 @@
-$primaryColor: #e21a36; 
-$secondaryColor: #cecece; 
-$primaryFont: helvetica,Helvetica,Arial,sans-serif;
-$primaryText: white; 
-$secondaryText: black; 
+$primaryColor: #e21a36;
+$secondaryColor: #cecece;
+$primaryFont: helvetica, Helvetica, Arial, sans-serif;
+$primaryText: white;
+$secondaryText: black;
 
-
-//universal media queries 
-$mobile:480px; 
-$tablet: 768px; 
-$desktop: 1024px; 
+//universal media queries
+$mobile: 480px;
+$tablet: 768px;
+$desktop: 1024px;
 
 * {
   box-sizing: border-box;
-  margin: 0; 
+  margin: 0;
 }
-
 
 body {
   font-family: $primaryFont;
 }
 
+#container {
+  display: block;
+}
 
+@media only screen and (orientation: portrait) {
+  #container {
+    height: 100vw;
+
+    -webkit-transform: rotate(90deg);
+
+    -moz-transform: rotate(90deg);
+
+    -o-transform: rotate(90deg);
+
+    -ms-transform: rotate(90deg);
+
+    transform: rotate(90deg);
+  }
+}
+
+@media only screen and (orientation: landscape) {
+  #container {
+    -webkit-transform: rotate(0deg);
+
+    -moz-transform: rotate(0deg);
+
+    -o-transform: rotate(0deg);
+
+    -ms-transform: rotate(0deg);
+
+    transform: rotate(0deg);
+  }
+}
