@@ -1,35 +1,29 @@
-$primaryColor: #e21a36; 
-$secondaryColor: #cecece; 
-$primaryFont: helvetica,Helvetica,Arial,sans-serif;
-$primaryText: white; 
-$secondaryText: black; 
+$primaryColor: #e21a36;
+$secondaryColor: #cecece;
+$primaryFont: helvetica, Helvetica, Arial, sans-serif;
+$primaryText: white;
+$secondaryText: black;
 
-
-//universal media queries 
-$mobile:480px; 
-$tablet: 768px; 
-$desktop: 1024px; 
+//universal media queries
+$mobile: 480px;
+$tablet: 768px;
+$desktop: 1024px;
 
 * {
   box-sizing: border-box;
-  margin: 0; 
+  margin: 0;
 }
-
 
 body {
   font-family: $primaryFont;
 }
 
-
 /* https://medium.com/mirafra-sw-engineering/how-to-change-screen-orientation-with-javascript-9b82fca93d56 */
 /* Locks orientation mode since this will be cast to a tv from an iphone. Found this to be most elegent solution 
 since iphone doesn't accept the orientation.lock api.  */
 @media only screen and (orientation: portrait) {
-  body {
-    height: 100vw;
-    transform: rotate(90deg);
+  html {
+    height: 100vw !important;
+    transform: rotate(90deg) !important;
   }
 }
-
-
-
