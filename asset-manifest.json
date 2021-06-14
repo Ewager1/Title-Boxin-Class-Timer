@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Title-Boxin-Class-Timer-/static/css/main.032a31d4.chunk.css",
+    "main.css": "/Title-Boxin-Class-Timer-/static/css/main.46dccc26.chunk.css",
     "main.js": "/Title-Boxin-Class-Timer-/static/js/main.a0d43296.chunk.js",
     "main.js.map": "/Title-Boxin-Class-Timer-/static/js/main.a0d43296.chunk.js.map",
     "runtime-main.js": "/Title-Boxin-Class-Timer-/static/js/runtime-main.dd544e6d.js",
@@ -10,14 +10,14 @@
     "index.html": "/Title-Boxin-Class-Timer-/index.html",
     "service-worker.js": "/Title-Boxin-Class-Timer-/service-worker.js",
     "service-worker.js.map": "/Title-Boxin-Class-Timer-/service-worker.js.map",
-    "static/css/main.032a31d4.chunk.css.map": "/Title-Boxin-Class-Timer-/static/css/main.032a31d4.chunk.css.map",
+    "static/css/main.46dccc26.chunk.css.map": "/Title-Boxin-Class-Timer-/static/css/main.46dccc26.chunk.css.map",
     "static/js/2.7550f6d8.chunk.js.LICENSE.txt": "/Title-Boxin-Class-Timer-/static/js/2.7550f6d8.chunk.js.LICENSE.txt",
     "static/media/titleLogo.ece21b9b.png": "/Title-Boxin-Class-Timer-/static/media/titleLogo.ece21b9b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.dd544e6d.js",
     "static/js/2.7550f6d8.chunk.js",
-    "static/css/main.032a31d4.chunk.css",
+    "static/css/main.46dccc26.chunk.css",
     "static/js/main.a0d43296.chunk.js"
   ]
 }
