@@ -4,8 +4,6 @@ import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
 import "./index.scss";
 import App from "./App";
 
-
-
 ReactDOM.render(
   <React.StrictMode>
     <App />
@@ -14,3 +12,5 @@ ReactDOM.render(
 );
 
 serviceWorkerRegistration.register();
+
+screen.orientation.lock("landscape");

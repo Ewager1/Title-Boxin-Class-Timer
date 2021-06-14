@@ -18,18 +18,3 @@ body {
   font-family: $primaryFont;
 }
 
-/* https://medium.com/mirafra-sw-engineering/how-to-change-screen-orientation-with-javascript-9b82fca93d56 */
-/* Locks orientation mode since this will be cast to a tv from an iphone. Found this to be most elegent solution 
-since iphone doesn't accept the orientation.lock api.  */
-@media screen and (min-width: 1px) and (max-width: 3000px) and (orientation: portrait) {
-  html {
-    transform: rotate(-90deg);
-    transform-origin: left top;
-    width: 100vh;
-    height: 100vh;
-    overflow-x: hidden;
-    position: absolute;
-    top: 100%;
-    left: 0;
-  }
-}
