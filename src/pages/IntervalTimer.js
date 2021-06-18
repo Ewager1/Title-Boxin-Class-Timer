@@ -7,7 +7,6 @@ import oneBell from "../assets/oneBell.wav"
 
 import TimerContext from "../store/timer-context";
 
-import './IntervalTimer.scss'
 
 export const IntervalTimer = () => {
   // holds all the data used to decide how many rounds, time of each round, etc.
@@ -289,20 +288,11 @@ export const IntervalTimer = () => {
     }
   };
 
-  const playAudio = () => {
-    new Audio(oneBell).play()
-    setDingBell(false)
-  }
-  
 
 
   return (
     <>
       <TimerHeader handleClearInterval={() => clearInterval} />
-{/* created button here to break html5's rule on not allowing sounds without user interaction. 
-Normally, I would never do this, but this is a personal app and this functionality is needed, 
-so this is the solution I came up with after tinkering.  */}
-      <button className="hidden-button" onClick={ dingBell ? playAudio() : null }>try me</button>
       <TimerBody
         displayedTime={timer.displayedTime}
         play={play}
