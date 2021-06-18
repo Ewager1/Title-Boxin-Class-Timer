@@ -275,7 +275,7 @@ export const IntervalTimer = () => {
     // else add 15 seconds
     else {
       if (isPaused) {
-        
+
         setTimer((prevState) => ({
           ...prevState,
           minutes: timer.minutes,
